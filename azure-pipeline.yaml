@@ -11,7 +11,7 @@ trigger:
 
 variables:
   # There must be an Azure Service Connection with that name defined in your Azure DevOps settings. See https://docs.microsoft.com/en-us/azure/devops/pipelines/library/connect-to-azure?view=azure-devops
-  serviceConnection: 'github.com_harishnerella65'
+  serviceConnection: 'terraform-basic-testing-azure-connection2'
   azureLocation: 'westeurope'
   # Terraform settings
   terraformWorkingDirectory: '$(System.DefaultWorkingDirectory)'
@@ -30,7 +30,7 @@ stages:
 #      - task: AzureCLI@1
 #        displayName: Azure CLI
 #        inputs:
-#          azureSubscription: 'github.com_harishnerella65'
+#          azureSubscription: 'terraform-basic-testing-azure-connection2'
 #          scriptLocation: 'inlineScript'
 #          inlineScript: |
 #            az --version
@@ -38,7 +38,7 @@ stages:
       - task: AzureCLI@2
         displayName: 'Azure CLI'
         inputs:
-          azureSubscription: 'github.com_harishnerella65'
+          azureSubscription: 'terraform-basic-testing-azure-connection2'
           addSpnToEnvironment: true
           scriptType: 'bash'
           scriptLocation: 'inlineScript'
