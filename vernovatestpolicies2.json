@@ -1,0 +1,11 @@
+[
+   {
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/GR-AZURE-Limited/providers/Microsoft.Authorization/policyDefinitions/b4a1f143-0c28-4d24-a893-4d156262f617",
+   },
+   {
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/GR-AZURE-Limited/providers/Microsoft.Authorization/policyDefinitions/b4a1f143-0c28-4d24-a893-4d156262f666",
+   },
+   {
+    "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/GR-AZURE-Limited/providers/Microsoft.Authorization/policyDefinitions/fec1c98c-cd27-431f-a267-9b8e03629bc1",
+   }
+]
